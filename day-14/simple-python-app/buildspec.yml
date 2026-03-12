@@ -18,8 +18,8 @@ phases:
       - docker build -t simple-python-app .
 
   post_build:
-    commands:
-      - echo "Build completed"
+  commands:
+    - echo "Build Successfully"
 
 artifacts:
   files:
